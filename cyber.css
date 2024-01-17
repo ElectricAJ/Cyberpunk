@@ -1,0 +1,351 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    background-color: #1d3557;
+    font-family: 'Bebas Neue', sans-serif;
+    background-image: url(https://images.unsplash.com/photo-1614851099511-773084f6911d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    min-height: 100vh;
+
+}
+
+
+h1 {
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    background-size: cover;
+    height: 100px;
+}
+
+.glow {
+    margin-left: 5px;
+    margin-right: 5px;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #03045e, 0 0 40px #03045e, 0 0 50px #03045e, 0 0 60px #03045e, 0 0 70px #03045e;
+    }
+
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #48cae4, 0 0 40px #48cae4, 0 0 50px #48cae4, 0 0 60px #48cae4, 0 0 70px #48cae4, 0 0 80px #48cae4;
+    }
+}
+
+span {
+    color: #003566;
+}
+
+.aj {
+    color: #003566;
+    font-size: 30px;
+}
+
+
+.cy {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: x-large;
+    width: auto;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+
+}
+
+.city {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.city img {
+    width: 400px;
+    height: 500px;
+    transition: 1s ease;
+}
+
+.city img:hover {
+    width: 450px;
+    height: 550px;
+    box-shadow: 0 0.2em 0.2em 0.2em #000814;
+    border-radius: 70px;
+}
+
+p {
+    text-align: center;
+    font-size: x-large;
+    color: white;
+    margin: 20px;
+}
+
+.warp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin: 0px;
+    width: 100%;
+
+
+
+}
+
+.head {
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-size: 30px;
+    color: aliceblue;
+    text-decoration: underline;
+}
+
+li {
+    margin-bottom: 45px;
+}
+
+.warp .st {
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    height: 400px;
+    width: 400px;
+    background-color: rgba(236, 236, 236, 0.124);
+    backdrop-filter: blur(60px);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, .2);
+    border: 2px solid rgba(255, 255, 255, .2);
+}
+
+.warp .nd {
+    text-align: center;
+    font-size: 25px;
+    height: 400px;
+    width: 400px;
+    color: #fff;
+    background-color: rgba(236, 236, 236, 0.124);
+    border-radius: 10px;
+    backdrop-filter: blur(60px);
+    box-shadow: 0 0 10px rgb(0, 0, 0, .2);
+    border: 2px solid rgba(255, 255, 255, .2);
+
+}
+
+.star {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.star img {
+    width: 600px;
+    height: auto;
+    margin: 0px;
+    transition: 1s ease;
+}
+
+.star img:hover {
+    border-radius: 70px;
+    box-shadow: 0 0.2em 0.2em 0.2em #000814;
+    opacity: 1;
+    width: 650px;
+    height: auto;
+}
+
+#last {
+    text-align: center;
+
+}
+
+.enter {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 50px;
+
+
+}
+
+.enter input {
+    font-size: 45px;
+    color: #2b2d42;
+    font-weight: 400;
+    width: 200px;
+    height: 75px;
+    background-image: url(https://images.unsplash.com/photo-1550537687-c91072c4792d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGF0dGVybnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60);
+    background-size: contain;
+    margin-bottom: 10px;
+    transition: 1s ease-in-out;
+}
+
+.enter input:hover {
+    width: 250px;
+    cursor: pointer;
+}
+
+.enter span {
+    color: #2b2d42;
+}
+
+.enter span:hover {
+    color: #5f0f40;
+
+}
+
+.la {
+    margin-top: 0px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
